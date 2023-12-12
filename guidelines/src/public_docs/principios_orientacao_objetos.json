@@ -1,0 +1,39 @@
+{
+    "tag": ["Developer Guideline"]
+    , "title": "Princípios de Orientação a Objetos"
+    , "prelude": "Siga os princípios SOLID (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) para criar código modular e flexível."
+    , "url_header": ""
+    , "section": [
+        {
+            "sub-title": "Encapsulamento"
+            , "paragraph": [
+                "Limitação de Acesso: Encapsule os detalhes internos das classes, expondo apenas o necessário. Utilize modificadores de acesso para controlar a visibilidade."
+                , "Coerência Interna: Mantenha a consistência interna da classe, encapsulando comportamento e dados."
+            ]
+        }
+        , {
+            "sub-title": "Herança"
+            , "paragraph": [
+                "Faça sempre uso de uma Herança Significativa, utilize herança apenas quando houver uma relação clara. Evite herança apenas por conveniência."
+            ]
+        }
+        , {
+            "sub-title": "Polimorfismo"
+            , "paragraph": [
+                "Explore o polimorfismo para tratar objetos de maneira genérica. Use interfaces e classes abstratas para definir contratos."
+            ]
+        }
+        , {
+            "sub-title": "Composição"
+            , "paragraph": [
+                "Favoreça Composição sobre Herança, prefira composição para criar relações entre objetos. Isso promove maior flexibilidade e reutilização de código."
+            ]
+        }
+        , {
+            "sub-title": "Injeção de Dependência"
+            , "paragraph": [
+                "Utilize injeção de dependência para reduzir acoplamento. Facilite a substituição de implementações em tempo de execução."
+            ]
+        }
+    ]
+}

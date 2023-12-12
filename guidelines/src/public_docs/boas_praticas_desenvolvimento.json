@@ -1,0 +1,69 @@
+{
+  "tag": ["Developer Guideline"],
+  "title": "Boas Práticas para Desenvolvimento",
+  "prelude": "Ao incorporar esses princípios de Orientação a Objetos e considerações específicas sobre a arquitetura em 3 camadas, você estará promovendo uma estrutura mais coesa, escalável e de fácil manutenção para seu projeto. Esses princípios são fundamentais para o desenvolvimento de sistemas robustos e flexíveis.",
+  "url_header": "",
+  "section": [
+    {
+      "sub-title": "Nomes Significativos",
+      "paragraph": [
+        "Escolha nomes descritivos para variáveis, funções e classes.",
+        "Evite nomes genéricos, seja específico sobre a função."
+      ]
+    },
+    {
+      "sub-title": "Funções Pequenas e Concisas",
+      "paragraph": [
+        "Mantenha funções pequenas e focadas em uma única responsabilidade. Evite funções com muitos parâmetros."
+      ]
+    },
+    {
+      "sub-title": "Organização Lógica",
+      "paragraph": [
+        "Agrupe funções relacionadas. Mantenha uma estrutura hierárquica fácil de entender."
+      ]
+    },
+    {
+      "sub-title": "Evite Códigos Duplicados",
+      "paragraph": [
+        "Refatore trechos duplicados para funções ou classes reutilizáveis. Utilize herança ou composição para promover a reutilização."
+      ]
+    },
+    {
+      "sub-title": "Linguagem Ubíqua",
+      "paragraph": [
+        "Use uma linguagem comum entre desenvolvedores e especialistas do domínio. Evite ambiguidades na comunicação sobre o domínio."
+      ]
+    },
+    {
+      "sub-title": "Contexto Limitado",
+      "paragraph": [
+        "Defina limites claros entre contextos delimitados para evitar conflitos. Utilize contextos delimitados para garantir consistência e isolamento."
+      ]
+    },
+    {
+      "sub-title": "Modelo Rico",
+      "paragraph": [
+        "Desenvolva modelos ricos em comportamento, não apenas em dados. Utilize agregados para garantir consistência e transações."
+      ]
+    },
+    {
+      "sub-title": "Event-Driven Architecture",
+      "paragraph": [
+        "Implemente arquiteturas orientadas a eventos para reagir a mudanças no estado. Utilize eventos e validações para desinstanciar componentes."
+      ]
+    },
+    {
+      "sub-title": "Refatoração Contínua",
+      "paragraph": [
+        "Esteja disposto a refatorar código para melhorar a qualidade e a manutenibilidade. Utilize padrões de design quando apropriado."
+      ]
+    },
+    {
+      "sub-title": "Comunicação Eficiente",
+      "paragraph": [
+        "Promova a comunicação eficiente entre as camadas, evitando acoplamento excessivo."
+      ]
+    }
+  ]
+}

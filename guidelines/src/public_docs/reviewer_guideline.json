@@ -1,0 +1,88 @@
+{
+  "tag": ["Reviewer Guideline"],
+  "title": "Arquitetura em 3 Camadas",
+  "prelude": "Familiarize-se com o contexto da alteração. Leia as especificações e compreenda o propósito da mudança.",
+  "url_header": "",
+  "section": [
+    {
+      "sub-title": "Clareza e Legibilidade",
+      "paragraph": [
+        "Verifique se o código é claro, legível e segue as boas práticas de codificação. Analise se os nomes de variáveis, funções e classes são significativos."
+      ]
+    },
+    {
+      "sub-title": "Conformidade com Padrões",
+      "paragraph": [
+        "Certifique-se de que o código está em conformidade com os padrões de codificação estabelecidos."
+      ]
+    },
+    {
+      "sub-title": "Divisão Lógica",
+      "paragraph": [
+        "Avalie a divisão lógica do código em funções e classes. Garanta que cada componente tenha uma responsabilidade clara."
+      ]
+    },
+    {
+      "sub-title": "Lógica de Negócios",
+      "paragraph": [
+        "Avalie se a lógica de negócios está correta e atende aos requisitos."
+      ]
+    },
+    {
+      "sub-title": "Tratamento de Erros",
+      "paragraph": [
+        "Verifique se o código lida adequadamente com possíveis cenários de erro."
+      ]
+    },
+    {
+      "sub-title": "Eficiência e Desempenho",
+      "paragraph": [
+        "Avalie se o código é eficiente e considera questões de desempenho quando aplicável."
+      ]
+    },
+    {
+      "sub-title": "Encapsulamento e Coesão",
+      "paragraph": [
+        "Analise o uso adequado de encapsulamento e a coesão das classes e funções."
+      ]
+    },
+    {
+      "sub-title": "Herança e Composição",
+      "paragraph": [
+        "Verifique se a herança é utilizada adequadamente e se a composição é preferida quando apropriado."
+      ]
+    },
+    {
+      "sub-title": "Divisão em Camadas",
+      "paragraph": [
+        "Garanta que o código esteja organizado em camadas (front-end, camada de negócios, camada de persistência) de acordo com as melhores práticas."
+      ]
+    },
+    {
+      "sub-title": "Clareza e Convenções",
+      "paragraph": [
+        "Verifique se as mensagens de commit são claras, concisas e seguem convenções estabelecidas."
+      ]
+    },
+    {
+      "sub-title": "Referência a Problemas",
+      "paragraph": [
+        "Certifique-se de que as mensagens de commit referenciam problemas ou tarefas relacionadas."
+      ]
+    },
+    {
+      "sub-title": "Feedback Construtivo",
+      "paragraph": ["Forneça feedback construtivo e sugestões para melhorias."]
+    },
+    {
+      "sub-title": "Perguntas para o Autor",
+      "paragraph": [
+        "Faça perguntas para esclarecer intenções ou decisões de design."
+      ]
+    },
+    {
+      "sub-title": "Elogios e Reconhecimento",
+      "paragraph": ["Reconheça o bom trabalho quando apropriado."]
+    }
+  ]
+}
