@@ -6,7 +6,7 @@ import CardPage from './components/CardPage';
 function App() {
   return (
     <div>
-      {/*<CardPage/>*/}
+      <CardPage/>
       <Card/>
     </div>
   );

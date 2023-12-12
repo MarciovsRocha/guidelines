@@ -31,16 +31,16 @@ function CardPage(){
       }    
 
     return (
-        <div class="reading-page">
+        <div className="reading-page">
             <h1>{ page.title }</h1>
-            <p>{ page.prelude }</p>
-            <hr/>
+            <p className="prelude">{ page.prelude }</p>
+
             {page.section.map((s) => {                
                 return (
-                <div>
+                <div key={s.sub_title}>
                     <h3>{s.sub_title}</h3>
                     {s.paragraph.map((para) => {
-                        return <p>{para}</p>;
+                        return <p key={para}>{para}</p>;
                     })}
                 </div>
                 )

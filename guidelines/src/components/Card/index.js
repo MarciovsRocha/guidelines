@@ -31,7 +31,7 @@ function Card(){
       }    
 
     return (
-        <div class="reading-page">
+        <div className="card">
             <h1>{ page.title }</h1>
             <hr/>
             <p>{ page.prelude }</p>

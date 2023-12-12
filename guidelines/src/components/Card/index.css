@@ -1,6 +1,18 @@
-.reading-page{
-    background-color: ghostwhite;
-    border-radius: 1em;
-    padding: 2em;
-    margin: 2em;
+@import "../../default_style.css";
+
+.card{
+    background-color: var(--white);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+    max-width: 20%;
+    min-width: 100px;
+}
+
+.card hr{
+    width: 95%;
+}
+
+.card p{
+    font-weight: 400;
 }

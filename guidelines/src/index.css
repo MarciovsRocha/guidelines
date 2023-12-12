@@ -1,7 +1,11 @@
+@import "./default_style.css";
+
 html {
  margin: 0;
  border: 0;
  padding: 0;
+ display: flex;
+ flex-direction: column;
 }
 
 body {
@@ -10,8 +14,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #555d61;
-  background-color: beige;
+  color: var(--grey);
+  background-color: var(--strong-blue);
+  height: 100%;
 }
 
 code {
