@@ -5,7 +5,10 @@ import CardPage from './components/CardPage';
 
 function App() {
   return (
-    <CardPage/>
+    <div>
+      {/*<CardPage/>*/}
+      <Card/>
+    </div>
   );
 }
 
