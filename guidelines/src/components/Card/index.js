@@ -4,7 +4,7 @@ function Card(){
     let page = {
         tag: ["Developer Guideline"],
         title: "Arquitetura em 3 Camadas",
-        prelude: "",
+        "prelude": "Ao incorporar esses princípios de Orientação a Objetos e considerações específicas sobre a arquitetura em 3 camadas, você estará promovendo uma estrutura mais coesa, escalável e de fácil manutenção para seu projeto. Esses princípios são fundamentais para o desenvolvimento de sistemas robustos e flexíveis.",
         url_header: "",
         section: [
           {
@@ -33,18 +33,8 @@ function Card(){
     return (
         <div class="reading-page">
             <h1>{ page.title }</h1>
-            <p>{ page.prelude }</p>
             <hr/>
-            {page.section.map((s) => {                
-                return (
-                <div>
-                    <h3>{s.sub_title}</h3>
-                    {s.paragraph.map((para) => {
-                        return <p>{para}</p>;
-                    })}
-                </div>
-                )
-            })}
+            <p>{ page.prelude }</p>
         </div>
     )
 }
