@@ -1,6 +1,6 @@
 import './index.css';
 
-function Card(){
+function CardPage(){
     let page = {
         tag: ["Developer Guideline"],
         title: "Arquitetura em 3 Camadas",
@@ -49,4 +49,4 @@ function Card(){
     )
 }
 
-export default Card;
+export default CardPage;
