@@ -5,6 +5,7 @@
     border-radius: 1rem;
     padding: 2rem;
     margin: 2rem;
+    align-content: center;
 }
 
 .reading-page hr{
@@ -14,6 +15,8 @@
 .reading-page p{
     font-weight: 400;
     margin: 0;    
+    text-align: justify;
+    text-justify: distribute;
 }
 
 .reading-page p,p{
@@ -23,4 +26,9 @@
 .reading-page h3 {
     margin-bottom: .5rem;
     margin-top: 1rem;
+}
+
+.reading-header {
+    max-width: 100%;
+    border-radius: 1rem;
 }

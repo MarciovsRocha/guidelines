@@ -5,7 +5,7 @@ function CardPage(){
         tag: ["Developer Guideline"],
         title: "Arquitetura em 3 Camadas",
         "prelude": "Ao incorporar esses princípios de Orientação a Objetos e considerações específicas sobre a arquitetura em 3 camadas, você estará promovendo uma estrutura mais coesa, escalável e de fácil manutenção para seu projeto. Esses princípios são fundamentais para o desenvolvimento de sistemas robustos e flexíveis.",
-        url_header: "",
+        url_header: "https://images.pexels.com/photos/9436715/pexels-photo-9436715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         section: [
           {
             sub_title: "Front-End",
@@ -32,6 +32,7 @@ function CardPage(){
 
     return (
         <div className="reading-page">
+            <img alt="three objects" className="reading-header" src={page.url_header} />
             <h1>{ page.title }</h1>
             <p className="prelude">{ page.prelude }</p>
 
