@@ -13,4 +13,6 @@
 
 .card p{
     font-weight: 400;
+    text-align: justify;
+    text-justify: distribute;
 }

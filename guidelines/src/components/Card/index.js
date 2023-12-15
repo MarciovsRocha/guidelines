@@ -33,8 +33,7 @@ function Card(){
     return (
         <div className="card">
             <h1>{ page.title }</h1>
-            <hr/>
-            <p>{ page.prelude }</p>
+            <p className="code">{ page.prelude }</p>
         </div>
     )
 }

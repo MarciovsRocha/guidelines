@@ -31,11 +31,12 @@ function CardPage(){
       }    
 
     return (
-        <div className="reading-page">
+        <div className="reading-page">            
+            <div className="image-crop">
             <img alt="three objects" className="reading-header" src={page.url_header} />
+            </div>
             <h1>{ page.title }</h1>
-            <p className="prelude">{ page.prelude }</p>
-
+            <p className="prelude">{ page.prelude }</p>            
             {page.section.map((s) => {                
                 return (
                 <div key={s.sub_title}>

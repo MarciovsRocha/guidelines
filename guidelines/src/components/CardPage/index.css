@@ -8,27 +8,24 @@
     align-content: center;
 }
 
-.reading-page hr{
-    width: 95%;
-}
-
 .reading-page p{
     font-weight: 400;
     margin: 0;    
     text-align: justify;
     text-justify: distribute;
-}
-
-.reading-page p,p{
     padding-top: .25rem;
 }
 
-.reading-page h3 {
-    margin-bottom: .5rem;
-    margin-top: 1rem;
+.reading-page h3 h1{
+    margin-bottom: .2rem;
+    margin-top: 1rem;    
 }
 
 .reading-header {
-    max-width: 100%;
-    border-radius: 1rem;
+    display: block;
+    object-fit: cover;
+    border-radius: 0px;
+    width: 100%;
+    height: 30vw;
+    object-position: center 60%;
 }
