@@ -1,7 +1,5 @@
 import './index.css';
 import Card from '../../components/Card';
-import CardPage from '../CardPage/index.js';
-import { Link } from 'react-router-dom';
 
 import documentos from '../../public_docs/public_docs.js';
 
