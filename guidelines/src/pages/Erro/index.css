@@ -1,0 +1,27 @@
+@import '../../default_style.css';
+
+.not-found {
+    height: calc(100vh - 60px);
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white-blue);
+    border-radius: 1em;
+    margin: 1% auto;
+}
+
+.not-found h1 {
+    font-size: 10em;
+}
+
+.not-found a {
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: var(--white);
+    background-color: var(--strong-blue);
+}

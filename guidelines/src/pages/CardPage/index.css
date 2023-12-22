@@ -24,8 +24,18 @@
 .reading-header {
     display: block;
     object-fit: cover;
-    border-radius: 0px;
+    border-radius: 1em;
     width: 100%;
     height: 30vw;
     object-position: center 60%;
+}
+
+
+.reading-page a {
+    text-decoration: none;
+    padding: 10px;    
+    font-weight: bold;
+    border-radius: 5px;
+    color: var(--white);
+    background-color: var(--strong-blue);
 }

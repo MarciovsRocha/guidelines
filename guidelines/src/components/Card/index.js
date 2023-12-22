@@ -1,11 +1,17 @@
+import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import './index.css';
 
-function Card(page){
+Card.propTypes={
+    page: PropTypes.object
+};
+
+function Card(props){
     return (
-        <div className="card">
-            <h1>{ page.title }</h1>
-            <p className="code">{ page.prelude }</p>
-        </div>
+        <Link to={`/CardPage/${props.page.id}`} className="card">
+                <h1>{ props.page.title }</h1>
+                {props.page.prelude}
+        </Link>
     )
 }
 

@@ -5,9 +5,12 @@
     border-radius: 1rem;
     padding: 2rem;
     margin: 2rem;
-    width: calc(100% * (1/5));
-    max-width: 220px;
+    width: calc(100% * (1/3));
     min-width: 180px;
+    flex-grow: 1;
+    color: var(--grey);
+    text-decoration: none;
+    align-self: stretch;
 }
 
 .card hr{
