@@ -11,6 +11,7 @@
     color: var(--grey);
     text-decoration: none;
     align-self: stretch;
+    max-width: 400px;
 }
 
 .card hr{
