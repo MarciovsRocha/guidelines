@@ -8,7 +8,9 @@ function RoutesApp(){
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={ <Home /> }/>
+                {
+                    ['/', '/guidelines'].map((path) => <Route path={path} element={ <Home /> }/>)
+                }                
                 <Route path='/CardPage/:pageId' element={ <CardPage />} />
                 <Route path='*' element={ <Erro /> }/>
             </Routes>
