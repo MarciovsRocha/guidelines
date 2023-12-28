@@ -1,12 +1,10 @@
 import './index.css';
-import Menu from './../MenuItem';   
 
 function Header(){
     return(
-        <>
-            <img src='../../assets' />
-            <Menu />
-        </>
+        <div className="header">
+            <img src='../../assets/logo' alt="Logo"/>
+        </div>
     );
 }
 
