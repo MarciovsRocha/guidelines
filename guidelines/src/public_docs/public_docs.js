@@ -146,7 +146,7 @@ const documentos = [
   {
       "id": 4, 
     "tag": ["Reviewer Guideline"],
-    "title": "Reviewr Guideline",
+    "title": "Reviewer Guideline",
     "prelude": "Familiarize-se com o contexto da alteração. Leia as especificações e compreenda o propósito da mudança.",
     "url_header": "https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "section": [
