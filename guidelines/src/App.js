@@ -3,7 +3,7 @@ import RoutesApp from './router';
 
 function App() {
   return (
-    <div className='container'>
+    <div className='flex-centered '>
       <RoutesApp />
     </div>
   );

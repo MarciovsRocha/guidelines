@@ -6,14 +6,14 @@ import CardPage from './pages/CardPage';
 
 function RoutesApp(){
     return (
-        <BrowserRouter>
+        <BrowserRouter>            
             <Routes>
                 {
                     ['/', '/guidelines'].map((path) => <Route path={path} element={ <Home /> }/>)
                 }                
                 <Route path='/CardPage/:pageId' element={ <CardPage />} />
                 <Route path='*' element={ <Erro /> }/>
-            </Routes>
+            </Routes>            
         </BrowserRouter>
     );
 }

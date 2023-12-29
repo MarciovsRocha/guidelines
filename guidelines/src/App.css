@@ -1,9 +1,7 @@
-.container {    
+@import './default_style.css';
+
+.flex-centered {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;    
-    align-items: center;
-    
-    height: 100dvh;
-    width: 100dvw;
+    align-content: center;
+    justify-content: center;
 }

@@ -104,7 +104,7 @@ const documentos = [
     ]
   },
   {
-      "id": 3, 
+    "id": 3, 
     "tag": ["Developer Guideline"]
     , "title": "Princípios de Orientação a Objetos"
     , "prelude": "Siga os princípios SOLID (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) para criar código modular e flexível."
@@ -144,7 +144,7 @@ const documentos = [
     ]
   },
   {
-      "id": 4, 
+    "id": 4, 
     "tag": ["Reviewer Guideline"],
     "title": "Reviewer Guideline",
     "prelude": "Familiarize-se com o contexto da alteração. Leia as especificações e compreenda o propósito da mudança.",
